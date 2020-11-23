@@ -1,5 +1,3 @@
 # Robbos-Drug-Mod
 
-A garrysmod addon, adds drugs to DarkRP
-
-used to be commercial but idc anymore lol
+A garrysmod addon, adds about a dozen drugs and special effects to DarkRP
