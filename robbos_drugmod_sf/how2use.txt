@@ -1,0 +1,28 @@
+chuck this in addons
+
+you'll need drugsmod installed to see the models of some drugs, you can find it at:
+http://steamcommunity.com/sharedfiles/filedetails/?id=696374067
+if  you don't want to have drugsmod installed you can simply change their models to something else by looking in lua/entities and changing the ones you want
+
+then just add them to darkrpmodification like so
+
+EXAMPLE FILE:
+AddCustomShipment("Beer", "models/props_junk/GlassBottle01a.mdl", "drug_booze", 200, 10, false, nil, false, {TEAM_CLERK})
+AddCustomShipment("Moonshine", "models/props_junk/garbage_glassbottle002a.mdl", "drug_booze2", 500, 10, false, nil, false, {TEAM_CLERK})
+AddCustomShipment("Painkillers", "models/props_lab/jar01b.mdl", "drug_painkiller", 700, 10, false, nil, false, {TEAM_CLERK, TEAM_DRUG})
+AddCustomShipment("Life Preserver", "models/props_lab/jar01b.mdl", "drug_preserver", 900, 10, false, nil, false, {TEAM_CLERK, TEAM_DRUG})
+AddCustomShipment("Vitalex", "models/props_lab/jar01b.mdl", "drug_vitalex", 700, 10, false, nil, false, {TEAM_CLERK, TEAM_DRUG})
+AddCustomShipment("Anti-Toxin", "models/props_lab/jar01b.mdl", "drug_antitoxin", 150, 10, false, nil, false, {TEAM_CLERK, TEAM_DRUG})
+AddCustomShipment("Muscle Relaxant", "models/props_lab/jar01b.mdl", "drug_relaxant", 500, 10, false, nil, false, {TEAM_CLERK, TEAM_DRUG})
+AddCustomShipment("Cigarettes", "models/boxopencigshib.mdl", "drug_ciggies", 350, 10, false, nil, false, {TEAM_CLERK, TEAM_DRUG})
+AddCustomShipment("Bouncer", "models/props_lab/jar01b.mdl", "drug_bouncer", 650, 10, false, nil, false, {TEAM_DRUG})
+AddCustomShipment("Haemophage", "models/props_lab/jar01b.mdl", "drug_vampire", 1000, 10, false, nil, false, {TEAM_DRUG})
+AddCustomShipment("Gunslinger", "models/props_lab/jar01b.mdl", "drug_gunslinger", 1200, 10, false, nil, false, {TEAM_DRUG})
+AddCustomShipment("Dextradose", "models/props_lab/jar01b.mdl", "drug_dextradose", 1100, 10, false, nil, false, {TEAM_DRUG})
+AddCustomShipment("Steroids", "models/props_lab/jar01b.mdl", "drug_roids", 1150, 10, false, nil, false, {TEAM_DRUG})
+AddCustomShipment("Weed", "models/props/de_inferno/claypot03.mdl", "drug_weed", 550, 10, false, nil, false, {TEAM_DRUG})
+AddCustomShipment("Crystal Meth", "models/katharsmodels/contraband/metasync/blue_sky.mdl", "drug_meth", 850, 10, false, nil, false, {TEAM_DRUG})
+AddCustomShipment("Pingaz", "models/smile/smile.mdl", "drug_pingaz", 750, 10, false, nil, false, {TEAM_DRUG})
+AddCustomShipment("Volatile Chemicals", "models/props/cs_militia/paintbucket01.mdl", "drug_volatile", 1600, 10, false, nil, false, {TEAM_TERROR})
+
+protip: there's also a police drug scanner included in this addon, its item code is "drug_scanner", give it to your cops to allow them to check people for illegal drugs
